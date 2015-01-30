@@ -15,12 +15,14 @@ Params.bandwidth = 2*105.984e6;    % Bandwidth
 Params.Zl        = 100;            % Load impedance
 Params.Zso       = 100;            % Source impedance
 
-topologies = { 'D2-H2',... %1
-               'D2-H1',... %2
-               'D1-H1',... %3
+topologies = { 'D1-H1',... %1
+               'D2-H2',... %2
+               'D2-H1',... %3
                'D3-H5',... %4
-               'D6-H6',... %5
-               'D6-none'}; %6
+               'D4-H5',... %5
+               'D4-H3',... %6
+               'D6-H6',... %7
+               'D6-none'}; %8
 
 %% Derived Parametes
 
