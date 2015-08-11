@@ -104,5 +104,5 @@ K = nTones;
 N = nLines;
 f = (0:(nTones - 1))*toneSpacing;
 
-save(filename, 'H', 'K', 'N', 'f')
+save(['data/', filename], 'H', 'K', 'N', 'f')
 
