@@ -9,7 +9,7 @@ if (~exist('data/'))
 end
 %% Parameters
 filename    = 'gfast_';
-oversample  = 2;          % 1 if not using, > 1 for using
+oversample  = 1;          % 1 if not using, > 1 for using
 BW          = 105.984e6;
 delta_f     = 51.75e3;    % Tone spacing
 Zl          = 100;
